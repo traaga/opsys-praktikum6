@@ -11,10 +11,6 @@
    ![grep daemon](grep-daemon.png)
    
    ```
-   
-   ```
-   
-   ```
    ps -axu | grep daemon | tr -s ' ' | cut -d ' ' -f 11-25
    ```
 
