@@ -10,7 +10,11 @@
    
    ![grep daemon](grep-daemon.png)
    
-   ```code```
+   ```
+   
+   ```
+   
+   ```
    ps -axu | grep daemon | tr -s ' ' | cut -d ' ' -f 11-25
    ```
 
@@ -18,6 +22,6 @@
    
    ![grep ip](grep-ip.png)
    
-   ```code```
+   ```
    ip a | grep global | tr -s ' ' | cut -d ' ' -f 3 | tr -s '/' | cut -d '/' -f 1
    ```
